@@ -1,47 +1,48 @@
-# ����㠫�� ���㦥��� 
-*/.venv/ 
-*/venv/ 
-*/env/ 
- 
-# ��� Python 
-*/__pycache__/ 
-*.pyc 
-*.pyo 
-*.pyd 
- 
-# ����� � ������ 
-*/data/ 
-*/models/ 
-*.csv 
-*.pkl 
-*.joblib 
-*.parquet 
-*.feather 
- 
-# Jupyter 
-*/.ipynb_checkpoints/ 
-*.ipynb 
- 
-# IDE 
-*/.vscode/ 
-*/.idea/ 
- 
-# OS 
-.DS_Store 
-Thumbs.db 
- 
-# ���� 
-*.log 
-*/logs/ 
- 
-# ����訥 䠩�� 
-*.zip 
-*.rar 
-*.tar.gz 
- 
-# CatBoost 
-*/catboost_info/ 
- 
-# �६���� 䠩�� 
-*.tmp 
-*.temp 
+# Виртуальные окружения
+*/.venv/
+*/venv/
+*/env/
+
+# Кэш Python
+*/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Данные и модели
+*/data/
+*/models/
+*.csv
+*.pkl
+*.joblib
+*.parquet
+*.feather
+
+# Jupyter - разрешаем ноутбуки только в Sber_auto_subscribe
+*/.ipynb_checkpoints/
+!Sber_auto_subscribe/*.ipynb
+*.ipynb
+
+# IDE
+*/.vscode/
+*/.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
+*/logs/
+
+# Большие файлы
+*.zip
+*.rar
+*.tar.gz
+
+# CatBoost
+*/catboost_info/
+
+# Временные файлы
+*.tmp
+*.temp
