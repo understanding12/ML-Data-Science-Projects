@@ -1,0 +1,47 @@
+# Виртуальные окружения 
+*/.venv/ 
+*/venv/ 
+*/env/ 
+ 
+# Кэш Python 
+*/__pycache__/ 
+*.pyc 
+*.pyo 
+*.pyd 
+ 
+# Данные и модели 
+*/data/ 
+*/models/ 
+*.csv 
+*.pkl 
+*.joblib 
+*.parquet 
+*.feather 
+ 
+# Jupyter 
+*/.ipynb_checkpoints/ 
+*.ipynb 
+ 
+# IDE 
+*/.vscode/ 
+*/.idea/ 
+ 
+# OS 
+.DS_Store 
+Thumbs.db 
+ 
+# Логи 
+*.log 
+*/logs/ 
+ 
+# Большие файлы 
+*.zip 
+*.rar 
+*.tar.gz 
+ 
+# CatBoost 
+*/catboost_info/ 
+ 
+# Временные файлы 
+*.tmp 
+*.temp 
