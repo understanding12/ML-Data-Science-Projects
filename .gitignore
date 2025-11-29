@@ -18,13 +18,17 @@
 *.parquet 
 *.feather 
  
-# Jupyter 
+# Jupyter - РАЗРЕШАЕМ ноутбуки в Sber_auto_subscribe 
 */.ipynb_checkpoints/ 
+!Sber_auto_subscribe/*.ipynb 
 *.ipynb 
  
 # IDE 
 */.vscode/ 
 */.idea/ 
+ 
+# Другие проекты 
+ml-churn-prediction-main/ 
  
 # OS 
 .DS_Store 
