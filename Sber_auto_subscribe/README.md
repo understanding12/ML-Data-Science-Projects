@@ -2,7 +2,6 @@
 
 ## Быстрый старт
 
-### 1. Клонирование репозитория
 ```bash
 git clone https://github.com/understanding12/ML-Data-Science-Projects.git
 cd ML-Data-Science-Projects/Sber_auto_subscribe
