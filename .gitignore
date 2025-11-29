@@ -21,7 +21,6 @@
 # Jupyter - €‡…˜€…Œ ­®ãâ¡ãª¨ ¢ Sber_auto_subscribe 
 */.ipynb_checkpoints/ 
 !Sber_auto_subscribe/*.ipynb 
-*.ipynb 
  
 # IDE 
 */.vscode/ 
