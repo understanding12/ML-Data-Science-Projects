@@ -112,3 +112,15 @@ CONVERSION_ACTIONS = [
     'sub_submit_success',            # Успешная отправка
     'sub_car_request_submit_click'   # Запрос на конкретный авто
 ]
+
+## 🚀 Быстрый старт (Docker)
+
+### Запуск за 2 команды:
+
+```bash
+# 1. Клонирование репозитория
+git clone https://github.com/your-username/sberautopodpiska-ml.git
+cd sberautopodpiska-ml
+
+# 2. Запуск всех сервисов
+docker-compose up -d
