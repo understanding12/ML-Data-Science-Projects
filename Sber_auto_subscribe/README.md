@@ -2,28 +2,8 @@
 
 ## Немного о задаче:
 
-```bash
-git clone https://github.com/understanding12/ML-Data-Science-Projects.git
-cd ML-Data-Science-Projects/Sber_auto_subscribe
-# Создать папку для данных
-mkdir -p data
+<img width="767" height="453" alt="image" src="https://github.com/user-attachments/assets/75a5c05f-4b5b-4957-bb9c-f0c85cc3f294" />
+<img width="774" height="841" alt="image" src="https://github.com/user-attachments/assets/ae43edf2-fb9c-435f-a8a4-698cff487bb5" />
+<img width="781" height="599" alt="image" src="https://github.com/user-attachments/assets/c395851d-8629-4322-b140-78cda01a7904" />
 
-# Скачать данные по ссылке:
-# https://drive.google.com/drive/folders/1rA4o6KHH-M2KMvBLHp5DZ5gioF2q7hZw?usp=sharing
 
-# Распаковать файлы в папку data/:
-# - ga_sessions.csv
-# - ga_hits.csv
-# Сборка и запуск контейнера
-docker-compose up --build
-
-# Или в фоновом режиме
-docker-compose up -d --build
-# Проверить API
-curl http://localhost:5000
-
-# Запустить тесты
-docker-compose exec ml-api python test_api.py
-
-# Запуск обучения в контейнере
-docker-compose exec ml-api python create_and_tune_model.py
