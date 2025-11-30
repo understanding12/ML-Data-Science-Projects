@@ -152,6 +152,26 @@ predictor.full_pipeline(
 # что бы протестировать модель запустите скрипт внутри контейнера, так там можно задавать свои тестовые сценарии
 docker-compose exec ml-api python test_api.py
 
+# Прямое тестирование API:
+```bash
+# Проверка статуса API
+curl http://localhost:5000
+
+# Ручной запрос к API
+curl -X POST http://localhost:5000/predict \
+  -H "Content-Type: application/json" \
+  -d '{
+    "session_data": {
+        "client_id": "test_user_001",
+        "visit_time": "14:30:00",
+        "device_brand": "iPhone",
+        "geo_city": "Moscow"
+    },
+    "hits_data": [
+        {"event_action": "quiz_show"}
+    ]
+  }'
+```
 
 # если хотите запустить вне контейнера последовательно запускайте скрипты:
 create_and_tune_model.py
