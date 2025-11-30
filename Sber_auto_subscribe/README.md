@@ -8,7 +8,7 @@
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 [![LightGBM](https://img.shields.io/badge/ML-LightGBM-green)](https://lightgbm.readthedocs.io/)
 [![Flask](https://img.shields.io/badge/API-Flask-red)](https://flask.palletsprojects.com/)
-[![ROC-AUC](https://img.shields.io/badge/ROC--AUC-0.89-success)]()
+[![ROC-AUC](https://img.shields.io/badge/ROC--AUC-0.743-success)]()
 
 </div>
 
@@ -113,7 +113,7 @@ CONVERSION_ACTIONS = [
     'sub_car_request_submit_click'   # Запрос на конкретный авто
 ]
 ```
-## 🚀 Быстрый старт (Docker)
+## 🚀 Быстрый старт
 
 ```bash
 # Скопируйте проект
