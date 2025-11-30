@@ -1,6 +1,6 @@
-# SberAuto Conversion Prediction - Инструкция по запуску
+# АналитикаКонверсийAI
 
-## Быстрый старт
+## Немного о задаче:
 
 ```bash
 git clone https://github.com/understanding12/ML-Data-Science-Projects.git
